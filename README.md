@@ -34,6 +34,8 @@ Dataset ini terdiri dari 22 kolom dan mencakup informasi berikut:
 - `nr.employed`: Jumlah karyawan.
 - `deposit`: Apakah klien telah berlangganan deposito berjangka (yes atau no).
 - `age group`: Kelompok umur yang dikategorikan.
+- `deposit_numeric`: Representasi numerik dari langganan deposito (1 untuk yes, 0 untuk no).
+
 
 ## Algoritma Machine Learning yang Digunakan
 Untuk memprediksi apakah seorang klien akan berlangganan deposito berjangka, berbagai model machine learning diterapkan dan dilatih menggunakan data pelatihan. Model yang akan dievaluasi meliputi:
