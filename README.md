@@ -11,7 +11,7 @@ Data ini ditujukan untuk:
 - Head of Retail Banking
 
 ## Deskripsi Dataset
-Dataset ini terdiri dari 23 kolom dan mencakup informasi berikut:
+Dataset ini terdiri dari 22 kolom dan mencakup informasi berikut:
 - `age`: Usia klien.
 - `job`: Jenis pekerjaan (misalnya, admin, services).
 - `marital`: Status pernikahan (misalnya, married, single).
@@ -34,7 +34,6 @@ Dataset ini terdiri dari 23 kolom dan mencakup informasi berikut:
 - `nr.employed`: Jumlah karyawan.
 - `deposit`: Apakah klien telah berlangganan deposito berjangka (yes atau no).
 - `age group`: Kelompok umur yang dikategorikan.
-- `deposit_numeric`: Representasi numerik dari langganan deposito (1 untuk yes, 0 untuk no).
 
 ## Algoritma Machine Learning yang Digunakan
 Untuk memprediksi apakah seorang klien akan berlangganan deposito berjangka, berbagai model machine learning diterapkan dan dilatih menggunakan data pelatihan. Model yang akan dievaluasi meliputi:
